@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f1f5f8;
+} 
+
+.container {
+    background-color: black;
+    position: absolute;
+    width: 20rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    box-shadow: 10px 10px 20px rgb(68, 67, 67);
+}
+
+.btn {
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-0%, -50%);
+    font-size: 1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white; 
+    transition: all 250ms linear;
+}
